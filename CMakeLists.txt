@@ -198,7 +198,7 @@ add_executable (acquisition_node src/acquisition_node.cpp)
 #target_link_libraries (acquisition_mt_node acquilib ${LIBS} ${catkin_LIBRARIES})
 #target_link_libraries (conversion_node acquilib ${LIBS} )
 target_link_libraries (acquisition_node acquilib ${LIBS} ${catkin_LIBRARIES})
-add_dependencies(acquisition_node datacollection_neu_generate_messages_cpp)
+add_dependencies(acquisition_node spinnaker_ros_generate_messages_cpp)
 #add_dependencies(acquisition_mt_node datacollection_neu_generate_messages_cpp)
 
 ## Rename C++ executable without prefix
