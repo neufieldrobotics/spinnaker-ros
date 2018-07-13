@@ -46,7 +46,7 @@ rqt_image_view
 ## Parmeters
 All the parameters can be set via the launch file or via the yaml config_file.  It is good practice to specify all the 'task' specific parameters via launch file and all the 'system configuration' specific parameters via a config_file.  
 
-###Task Specific Parameters
+### Task Specific Parameters
 * ~binning (int, default: 1)  
   Binning for cameras, when changing from 2 to 1 cameras need to be unplugged and replugged
 * ~color (bool, default: false)  
@@ -61,9 +61,9 @@ All the parameters can be set via the launch file or via the yaml config_file.  
   Show images on screen GUI in a grid
 * ~save (bool, default: false)  
   Flag whether images should be saved or not (via opencv mat objects to disk)
-* ~save_path (string, default: "~/projects/data")  
+* ~save_path (string, default: "\~/projects/data")  
   Location to save the image data
-* ~save_type (string, default: "bmp")  
+* \~save_type (string, default: "bmp")  
   Type of file type to save to when saving images locally: binary, tiff, bmp, jpeg etc.
 * ~soft_framerate (int, default: 20)  
   When hybrid software triggering is used, this controls the FPS, 0=as fast as possible
@@ -76,7 +76,7 @@ All the parameters can be set via the launch file or via the yaml config_file.  
 * ~max_rate_save (bool, default: false)  
   Flag for max rate mode which is when the master triggers the slaves and saves images at maximum rate possible.  This is the multithreaded mode"
 
-###System configuration parameters
+### System configuration parameters
 * ~cam_ids (yaml sequence or array)  
   This is a list of camera serial numbers in the order which it would be organized.  The convention is to start from left to right.
 * ~cam_aliases (yaml squence or array)  
@@ -88,7 +88,7 @@ This is the names that would be given to the cameras for filenames and rostopics
 * ~delay (float)  
   Secs to wait in the deinit/init sequence
 
-###Camera info message details
+### Camera info message details
 * ~distortion_model (string)  
   Distortion model for the camera calibration.  Typical is 'plumb_bob'
 * ~distortion_coeffs (array of arrays)  
