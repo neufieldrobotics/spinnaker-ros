@@ -4,11 +4,15 @@
   <version>0.0.0</version>
   <description>The spinnaker_ros package</description>
 
-  <maintainer email="vikrantshah@gmail.com">pushyamik</maintainer>
+  <maintainer email="vikrantshah @(at)@ gmail.com">Vikrant Shah</maintainer>
+
+  <author>Abhishek Bajpayee</author>
+  <author>Pushyami Kaveti</author>
+  <author>Vikrant Shah</author>
   
   <license>MIT</license>
 
-  <!-- <url type="website">http://wiki.ros.org/datacollection_neu</url> -->
+  <url type="website">http://wiki.ros.org/spinnaker-ros</url>
 
   <buildtool_depend>catkin</buildtool_depend>
   <build_depend>roscpp</build_depend>
